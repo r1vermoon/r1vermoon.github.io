@@ -1,0 +1,98 @@
+{
+	"Inline math": {
+        "scope": "markdown",
+		"prefix": "inline",
+		"body": ["$$1$"],
+	},
+	"Block math": {
+        "scope": "markdown",
+		"prefix": "block",
+		"body": ["$$\n$1\n$$"],
+	},
+// environments
+	"equation": {
+		"scope": "markdown",
+		"prefix": "equation",
+		"body": "$$\n\\begin{${1|equation*,equation|}}\n$2\n\\end{${1|equation*,equation|}}\n$$",
+	},
+// inputs
+	"superscript": {
+		"scope": "markdown,latex",
+		"prefix": "sup",
+		"body": "$1^{$2}",
+	},
+	"subscript": {
+		"scope": "markdown,latex",
+		"prefix": "sub",
+		"body": "$1\\_{$2}",
+	},
+	"text": {
+		"scope": "latex",
+		"prefix": "text",
+		"body": "\\text{ $1 }",
+	},
+	"font mathbb": {
+		"scope": "latex",
+		"prefix": "mathbb",
+		"body": "\\mathbb{$1}",
+	},
+	"operatorname": {
+		"scope": "latex",
+		"prefix": "operatorname",
+		"body": "\\operatorname{$1}",
+	},
+// logic
+	"forall": {
+		"scope": "latex",
+		"prefix": "forall",
+		"body": "\\forall ",
+	},
+	"exists": {
+		"scope": "latex",
+		"prefix": "exists",
+		"body": "\\exists ",
+	},
+	"iff": {
+		"scope": "latex",
+		"prefix": "iff",
+		"body": "\\Leftrightarrow",
+	},
+	"implies": {
+		"scope": "latex",
+		"prefix": "implies",
+		"body": "\\Rightarrow",
+	},
+// Admonition plugin
+	"Admonition Axiom": {
+		"scope": "markdown",
+		"prefix": "ad-axi",
+		"body": [
+			"{{< admonition type=note title=\"(Axi.) $1\" open=true >}}\n$2\n{{< /admonition >}}",
+			"$3"
+		]
+	},
+	"Admonition Definition": {
+		"scope": "markdown",
+		"prefix": "ad-def",
+		"body": [
+			"{{< admonition type=note title=\"(Def.) $1\" open=true >}}\n$2\n{{< /admonition >}}",
+			"$3"
+		]
+	},
+	"Admonition Theorem": {
+		"scope": "markdown",
+		"prefix": "ad-thm",
+		"body": [
+			"{{< admonition type=note title=\"(Thm.) $1\" open=true >}}\n$2\n{{< /admonition >}}",
+			"$3"
+		]
+	},
+	"Admonition Warning": {
+		"scope": "markdown",
+		"prefix": "ad-not",
+		"body": [
+			"{{< admonition type=warning title=\"Warning$1\" open=true >}}\n$2\n{{< /admonition >}}",
+			"$3"
+		]
+	},
+}

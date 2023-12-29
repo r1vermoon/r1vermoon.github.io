@@ -1,0 +1,7 @@
+{
+	"probability": {
+		"scope": "latex",
+		"prefix": "prob",
+		"body": "\\mathbf{P}($1)",
+	},
+}

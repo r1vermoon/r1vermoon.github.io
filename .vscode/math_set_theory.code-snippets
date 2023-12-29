@@ -1,0 +1,110 @@
+{
+	// Place your myblog workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	
+	"powerset": {
+		"scope": "latex",
+		"prefix": "powerset",
+		"body": "\\mathscr{P}",
+	},
+	"set": {
+		"scope": "latex",
+		"prefix": "set",
+		"body": "\\\\\\\\{ $1 \\\\\\\\}",
+	},
+	"set comprehension": {
+		"scope": "latex",
+		"prefix": "set-comprehension",
+		"body": "\\\\\\\\{ $1 \\mid $2 \\\\\\\\}",
+	},
+	"a member of": {
+		"scope": "latex",
+		"prefix": "in",
+		"body": "\\in",
+	},
+	"not a member of": {
+		"scope": "latex",
+		"prefix": "notin",
+		"body": "\\notin",
+	},
+	"cap": {
+		"scope": "latex",
+		"prefix": "cap",
+		"body": "\\cap",
+	},
+	"cup": {
+		"scope": "latex",
+		"prefix": "cup",
+		"body": "\\cup",
+	},
+	"subset": {
+		"scope": "latex",
+		"prefix": "subset",
+		"body": "\\subset",
+	},
+	"subseteq": {
+		"scope": "latex",
+		"prefix": "subseteq",
+		"body": "\\subseteq",
+	},
+	"domain": {
+		"scope": "latex",
+		"prefix": "domain",
+		"body": "\\operatorname{dom}",
+	},
+	"range": {
+		"scope": "latex",
+		"prefix": "range",
+		"body": "\\operatorname{ran}",
+	},
+	"field": {
+		"scope": "latex",
+		"prefix": "field",
+		"body": "\\operatorname{fld}",
+	},
+	"inverse": {
+		"scope": "latex",
+		"prefix": "inverse",
+		"body": "^{-1}",
+	},
+	"function composition": {
+		"scope": "latex",
+		"prefix": "composition",
+		"body": "\\circ",
+	},
+	"restriction": {
+		"scope": "latex",
+		"prefix": "restriction",
+		"body": "\\restriction",
+	},
+	"image of a set under a function": {
+		"scope": "latex",
+		"prefix": "image",
+		"body": "\\[\\\\\\!\\[$1\\]\\\\\\!\\]",
+	},
+	"emptyset": {
+		"scope": "latex",
+		"prefix": "emptyset",
+		"body": "\\varnothing",
+	},
+	"equivalence class": {
+		"scope": "latex",
+		"prefix": "equivclass",
+		"body": "\\[$1\\]_{$2}",
+	},
+	
+}
