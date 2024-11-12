@@ -1,8 +1,8 @@
 env: production # to enable google analytics, opengraph, twitter-cards and schema.
-title: Wei Li's blog 
+title: 江浸月
 # description: "ExampleSite description"
 keywords: [Blog, Portfolio, PaperMod]
-author: Wei Li
+author: 江浸月
 mainSections:
   - notes 
   - posts
@@ -46,8 +46,8 @@ label:
 # profile-mode
 profileMode:
   enabled: true # needs to be explicitly set
-  title: "Wei Li"
-  subtitle: "This blog will record my life of study."
+  title: "江浸月"
+  subtitle: "菜就多练"
   imageUrl: "images/image.jpg"
   imageWidth: 120
   imageHeight: 120
@@ -60,8 +60,8 @@ profileMode:
 
 # home-info mode
 homeInfoParams:
-  Title: "Wei Li's blog"
-  Content: This blog will record my life of studying.
+  Title: "江浸月's blog"
+  Content: 菜就多练
 
 # socialIcons:
 #   - name: twitter
@@ -85,7 +85,7 @@ cover:
   hiddenInSingle: true # hide on single page
 
 editPost:
-  URL: "https://github.com/hu4i/hu4i.github.io/tree/main/content"
+  URL: "https://github.com/JJYJJY12138/JJYJJY12138.github.io/tree/main/content"
   Text: "Suggest Changes" # edit text
   appendFilePath: true # to append file path to Edit link
 
